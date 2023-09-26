@@ -1,0 +1,34 @@
+# Ignore node_modules directory in all subfolders
+**/node_modules/
+
+# Ignore npm's log files in all subfolders
+**/npm-debug.log*
+
+# Ignore yarn's log files in all subfolders
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Ignore .env files in all subfolders
+**/.env
+
+# Ignore macOS metadata files in all subfolders
+**/.DS_Store
+
+# Ignore Visual Studio Code settings files in all subfolders
+**/.vscode/
+
+# Ignore project-specific .idea directory for JetBrains editors in all subfolders
+**/.idea/
+
+# Ignore test coverage reports in all subfolders
+**/coverage/
+
+# Ignore compiled output for TypeScript or Babel in all subfolders
+**/dist/
+**/build/
+
+# Ignore any local .env files used for development in all subfolders
+**/.env.local
+
+# Ignore dependency directories created by lerna in all subfolders
+**/packages/*/node_modules/
